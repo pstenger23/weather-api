@@ -2,7 +2,7 @@
 # Weather App
 
 ## About
-This website was designed to give its users a tool to check the weather for their specific locaiton. TO so this I used OpenWeather's open source api. Hope you enjoy!
+This website was designed to give its users a tool to check the weather for their specific locaiton. To do this I used OpenWeather's open source api. Hope you enjoy!
 
 ## deployed
 
