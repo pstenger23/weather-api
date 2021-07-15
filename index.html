@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel='stylesheet' type='text/css' href='./assets/style.css'></link>
+</head>
+<body>
+    <article>
+        
+        <header class="header">
+            <h1>Weather Dashboard</h1>
+        </header>
+        
+        <section class='content'>
+            <div class="search">
+                <form>
+                    <div>
+                        <label><h2>Enter a City!</h2></label>
+                        <input id="input" type="text" name="city"/>
+                    </div>
+                    <button id='search' type='submit'>Search</button>
+                </form>
+            </div>
+            <div class="weather">
+                <div id="daily"class="daily-forecast">
+                    <h2 id='cityName'></h2>
+                    <ul class='weather-list'>
+                        <li class='weather-item' id='temp'></li>
+                        <li class='weather-item' id='conditions'></li>
+                        <li class='weather-item' id='wind'></li>
+                        <li class='weather-item' id='humidity'></li>
+                        <li class='weather-item' id='uv'></li>
+                        
+                    </ul>
+                </div>
+                <div class="five-day">
+                    <div>
+                        <h2>5 Day Forecast</h2>
+                    </div>
+                    <div class='days'>
+                        <div class='day'>
+                            <h4>Tomorrow</h4>
+
+                        </div>
+                        <div class='day'>
+                            <h4>The next day</h4>
+                            
+                        </div>
+                        <div class='day'>
+                            <h4>The following day</h4>
+                            
+                        </div>
+                        <div class='day'>
+                            <h4>The day after that</h4>
+                            
+                        </div>
+                        <div class='day'>
+                            <h4>And even the next day</h4>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+    </article>
+    <script src='./assets/index.js'></script>
+</body>
+</html>

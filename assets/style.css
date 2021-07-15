@@ -1,0 +1,25 @@
+header {
+    background-color: #a16a9d;
+}
+body {
+    color: white;
+}
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+.search {
+    background-color: #a16a9d;
+    width: 20%;
+    padding: 25px;
+}
+.weather {
+    background-color: #a16a9d;
+    padding: 25px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.weather-list {
+    list-style: none;
+}
